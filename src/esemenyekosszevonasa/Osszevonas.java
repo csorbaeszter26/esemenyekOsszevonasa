@@ -61,6 +61,8 @@ public class Osszevonas extends javax.swing.JFrame {
 
         jLabel1.setText("összeg:");
 
+        jTextField1.setEditable(false);
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
