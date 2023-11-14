@@ -18,7 +18,11 @@ public class Osszevonas extends javax.swing.JFrame {
     public Osszevonas() {
         initComponents();
         osszeg = 0;
-        JTextField1.setText(osszeg + " Ft");
+        frissit();
+    }
+
+    private void frissit() {
+        jTextField1.setText(osszeg + " Ft");
     }
 
     @SuppressWarnings("unchecked")
@@ -102,7 +106,7 @@ public class Osszevonas extends javax.swing.JFrame {
             osszeg -= 200;
         }
                     
-        JTextField1.setText(osszeg + " Ft");
+        jTextField1.setText(osszeg + " Ft");
         }
     }//GEN-LAST:event_osszesito
 
